@@ -1,0 +1,14 @@
+server:
+  port: 9192
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: ORDER-SERVICE
+    
+logging:
+  file : C:/Users/vjella/Desktop/logs/microservice.log
