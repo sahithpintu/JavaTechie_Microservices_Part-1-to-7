@@ -1,0 +1,14 @@
+server:
+  port: 9191
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+  h2:
+    console:
+      enabled: true
+  application:
+    name: PAYMENT-SERVICE
+    
+    
+logging:
+  file : C:/Users/vjella/Desktop/logs/microservices.log
